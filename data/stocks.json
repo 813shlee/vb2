@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-21T15:24:07+00:00",
+  "generatedAt": "2026-08-21T23:03:21+00:00",
   "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
-  "consensusUpdatedAt": "2026-08-21T15:24:07+00:00",
+  "consensusUpdatedAt": "2026-08-21T23:03:21+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -37,8 +37,9 @@
       },
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T22:51:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -89,8 +90,9 @@
       },
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T22:57:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -141,8 +143,9 @@
       },
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T23:03:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -193,8 +196,9 @@
       },
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T22:51:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -245,8 +249,9 @@
       },
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T22:57:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -297,8 +302,9 @@
       },
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T23:03:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -350,8 +356,8 @@
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "collectionStatus": {
         "state": "stale",
-        "failedAt": "2026-08-21T15:20:30+00:00",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        "failedAt": "2026-08-21T22:51:21+00:00",
+        "error": "<urlopen error timed out>"
       }
     },
     {
@@ -387,8 +393,9 @@
       },
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T22:57:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -439,8 +446,9 @@
       },
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T23:03:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -491,8 +499,9 @@
       },
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T22:51:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -543,8 +552,9 @@
       },
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T22:57:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -596,8 +606,9 @@
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "consensusUpdatedAt": "2026-08-21T15:24:07+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T23:03:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -648,8 +659,9 @@
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "consensusUpdatedAt": "2026-08-21T15:20:30+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T22:51:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -700,8 +712,9 @@
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "consensusUpdatedAt": "2026-08-21T15:22:26+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T22:57:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -752,8 +765,9 @@
       "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
       "consensusUpdatedAt": "2026-08-21T15:24:07+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "consensus"
+        "state": "stale",
+        "failedAt": "2026-08-21T23:03:21+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -773,9 +787,93 @@
   ],
   "failures": [
     {
+      "code": "005930",
+      "name": "삼성전자",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
       "code": "010120",
       "name": "LS ELECTRIC",
-      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "003230",
+      "name": "삼양식품",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "483650",
+      "name": "달바글로벌",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "062040",
+      "name": "산일전기",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "373220",
+      "name": "LG에너지솔루션",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "error": "<urlopen error timed out>",
       "preserved": true
     }
   ]
