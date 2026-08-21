@@ -1,0 +1,68 @@
+name: Update weekly consensus
+
+on:
+  schedule:
+    - cron: "30 22 * * 5"
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "수집할 묶음 (전체는 약 6~12분 소요)"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - all
+          - "1"
+          - "2"
+          - "3"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: valuation-data-update
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Update FnGuide consensus
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          MANUAL_BATCH: ${{ inputs.batch }}
+        run: |
+          if [ "$EVENT_NAME" != "workflow_dispatch" ] || [ "$MANUAL_BATCH" = "all" ]; then
+            for batch_index in 0 1 2; do
+              python scripts/collect.py --mode consensus --batch-count 3 --batch-index "$batch_index"
+              if [ "$batch_index" != "2" ]; then sleep 75; fi
+            done
+          else
+            python scripts/collect.py --mode consensus --batch-count 3 --batch-index "$((MANUAL_BATCH - 1))"
+          fi
+      - name: Commit changed consensus
+        run: |
+          if ! git diff --quiet -- data/stocks.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/stocks.json
+            git commit -m "chore: update weekly consensus"
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+      - name: Deploy refreshed consensus
+        id: deployment
+        uses: actions/deploy-pages@v4
