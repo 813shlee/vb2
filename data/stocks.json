@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T04:53:38+00:00",
-  "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+  "generatedAt": "2026-08-24T05:44:35+00:00",
+  "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
   "consensusUpdatedAt": "2026-08-21T23:03:21+00:00",
   "stocks": [
     {
       "code": "005930",
       "name": "삼성전자",
-      "price": 257500,
+      "price": 256500,
       "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
@@ -29,13 +29,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=005930",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=005930"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": 1306652,
         "foreign": 1567349
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -59,7 +59,7 @@
     {
       "code": "000660",
       "name": "SK하이닉스",
-      "price": 1697000,
+      "price": 1680000,
       "quotedAt": "2026-08-24",
       "defaultMetric": "PBR",
       "annual": {
@@ -81,13 +81,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=000660",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=000660"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": 66258,
         "foreign": 6014
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -111,7 +111,7 @@
     {
       "code": "009150",
       "name": "삼성전기",
-      "price": 1315000,
+      "price": 1318000,
       "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
@@ -133,13 +133,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=009150",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=009150"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -88412,
         "foreign": -89916
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -185,13 +185,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=005380",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=005380"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": 23640,
         "foreign": 8059
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -237,13 +237,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=012330",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=012330"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -9067,
         "foreign": 31213
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -267,7 +267,7 @@
     {
       "code": "062040",
       "name": "산일전기",
-      "price": 165600,
+      "price": 164900,
       "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
@@ -289,13 +289,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=062040",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=062040"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -42787,
         "foreign": -115894
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -319,7 +319,7 @@
     {
       "code": "010120",
       "name": "LS ELECTRIC",
-      "price": 191200,
+      "price": 191100,
       "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
@@ -341,13 +341,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=010120",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=010120"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -123076,
         "foreign": -173842
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -356,7 +356,7 @@
     {
       "code": "011070",
       "name": "LG이노텍",
-      "price": 573000,
+      "price": 570000,
       "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
@@ -378,13 +378,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=011070",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=011070"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -61430,
         "foreign": 33043
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -408,7 +408,7 @@
     {
       "code": "329180",
       "name": "HD현대중공업",
-      "price": 453500,
+      "price": 455000,
       "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
@@ -430,13 +430,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=329180",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=329180"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -109630,
         "foreign": 68603
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -460,7 +460,7 @@
     {
       "code": "278470",
       "name": "에이피알",
-      "price": 405000,
+      "price": 406500,
       "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
@@ -482,13 +482,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=278470",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=278470"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": 20931,
         "foreign": 1491
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -512,7 +512,7 @@
     {
       "code": "483650",
       "name": "달바글로벌",
-      "price": 227000,
+      "price": 231000,
       "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
@@ -534,13 +534,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=483650",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=483650"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -32794,
         "foreign": 7082
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -564,7 +564,7 @@
     {
       "code": "373220",
       "name": "LG에너지솔루션",
-      "price": 360500,
+      "price": 359500,
       "quotedAt": "2026-08-24",
       "defaultMetric": "PBR",
       "annual": {
@@ -586,13 +586,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=373220",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=373220"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -60157,
         "foreign": 34364
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "consensusUpdatedAt": "2026-08-21T15:24:07+00:00",
       "collectionStatus": {
         "state": "fresh",
@@ -638,13 +638,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=003230",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=003230"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": 9493,
         "foreign": -5113
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "consensusUpdatedAt": "2026-08-21T15:20:30+00:00",
       "collectionStatus": {
         "state": "fresh",
@@ -668,7 +668,7 @@
     {
       "code": "006400",
       "name": "삼성SDI",
-      "price": 515000,
+      "price": 512000,
       "quotedAt": "2026-08-24",
       "defaultMetric": "PBR",
       "annual": {
@@ -690,13 +690,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=006400",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=006400"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -21991,
         "foreign": -23130
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "consensusUpdatedAt": "2026-08-21T15:22:26+00:00",
       "collectionStatus": {
         "state": "fresh",
@@ -742,13 +742,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=105560",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=105560"
       },
-      "priceUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "priceUpdatedAt": "2026-08-24T05:44:35+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": 66347,
         "foreign": -30171
       },
-      "investorTradingUpdatedAt": "2026-08-24T04:53:38+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T05:44:35+00:00",
       "consensusUpdatedAt": "2026-08-21T15:24:07+00:00",
       "collectionStatus": {
         "state": "fresh",
