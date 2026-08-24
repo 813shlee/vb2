@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-21T23:03:21+00:00",
-  "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+  "generatedAt": "2026-08-24T01:48:27+00:00",
+  "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
   "consensusUpdatedAt": "2026-08-21T23:03:21+00:00",
   "stocks": [
     {
       "code": "005930",
       "name": "삼성전자",
-      "price": 281500,
-      "quotedAt": "2026-08-21",
+      "price": 262000,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
         "2026": {
@@ -29,17 +29,16 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=005930",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=005930"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": 1306652,
         "foreign": 1567349
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T22:51:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -60,8 +59,8 @@
     {
       "code": "000660",
       "name": "SK하이닉스",
-      "price": 1730000,
-      "quotedAt": "2026-08-21",
+      "price": 1734000,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PBR",
       "annual": {
         "2026": {
@@ -82,17 +81,16 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=000660",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=000660"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": 66258,
         "foreign": 6014
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T22:57:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -113,8 +111,8 @@
     {
       "code": "009150",
       "name": "삼성전기",
-      "price": 1316000,
-      "quotedAt": "2026-08-21",
+      "price": 1317000,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
         "2026": {
@@ -135,17 +133,16 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=009150",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=009150"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -88412,
         "foreign": -89916
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T23:03:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -166,8 +163,8 @@
     {
       "code": "005380",
       "name": "현대차",
-      "price": 415000,
-      "quotedAt": "2026-08-21",
+      "price": 409750,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
         "2026": {
@@ -188,17 +185,16 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=005380",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=005380"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": 23640,
         "foreign": 8059
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T22:51:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -219,8 +215,8 @@
     {
       "code": "012330",
       "name": "현대모비스",
-      "price": 496000,
-      "quotedAt": "2026-08-21",
+      "price": 493500,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
         "2026": {
@@ -241,17 +237,16 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=012330",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=012330"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -9067,
         "foreign": 31213
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T22:57:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -272,8 +267,8 @@
     {
       "code": "062040",
       "name": "산일전기",
-      "price": 164800,
-      "quotedAt": "2026-08-21",
+      "price": 166000,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
         "2026": {
@@ -294,17 +289,16 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=062040",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=062040"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -42787,
         "foreign": -115894
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T23:03:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -325,8 +319,8 @@
     {
       "code": "010120",
       "name": "LS ELECTRIC",
-      "price": 187000,
-      "quotedAt": "2026-08-21",
+      "price": 190700,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
         "2026": {
@@ -347,24 +341,23 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=010120",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=010120"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -123076,
         "foreign": -173842
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T22:51:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       }
     },
     {
       "code": "011070",
       "name": "LG이노텍",
-      "price": 550000,
-      "quotedAt": "2026-08-21",
+      "price": 567000,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
         "2026": {
@@ -385,17 +378,16 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=011070",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=011070"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -61430,
         "foreign": 33043
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T22:57:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -416,8 +408,8 @@
     {
       "code": "329180",
       "name": "HD현대중공업",
-      "price": 453000,
-      "quotedAt": "2026-08-21",
+      "price": 460500,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
         "2026": {
@@ -438,17 +430,16 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=329180",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=329180"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -109630,
         "foreign": 68603
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T23:03:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -469,8 +460,8 @@
     {
       "code": "278470",
       "name": "에이피알",
-      "price": 385000,
-      "quotedAt": "2026-08-21",
+      "price": 414500,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
         "2026": {
@@ -491,17 +482,16 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=278470",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=278470"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": 20931,
         "foreign": 1491
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T22:51:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -522,8 +512,8 @@
     {
       "code": "483650",
       "name": "달바글로벌",
-      "price": 216500,
-      "quotedAt": "2026-08-21",
+      "price": 225000,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
         "2026": {
@@ -544,17 +534,16 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=483650",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=483650"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -32794,
         "foreign": 7082
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T22:57:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -575,8 +564,8 @@
     {
       "code": "373220",
       "name": "LG에너지솔루션",
-      "price": 343500,
-      "quotedAt": "2026-08-21",
+      "price": 358500,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PBR",
       "annual": {
         "2026": {
@@ -597,18 +586,17 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=373220",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=373220"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -60157,
         "foreign": 34364
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "consensusUpdatedAt": "2026-08-21T15:24:07+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T23:03:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -628,8 +616,8 @@
     {
       "code": "003230",
       "name": "삼양식품",
-      "price": 1366000,
-      "quotedAt": "2026-08-21",
+      "price": 1404000,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
         "2026": {
@@ -650,18 +638,17 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=003230",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=003230"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": 9493,
         "foreign": -5113
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "consensusUpdatedAt": "2026-08-21T15:20:30+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T22:51:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -681,8 +668,8 @@
     {
       "code": "006400",
       "name": "삼성SDI",
-      "price": 478000,
-      "quotedAt": "2026-08-21",
+      "price": 517000,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PBR",
       "annual": {
         "2026": {
@@ -703,18 +690,17 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=006400",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=006400"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": -21991,
         "foreign": -23130
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "consensusUpdatedAt": "2026-08-21T15:22:26+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T22:57:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -734,8 +720,8 @@
     {
       "code": "105560",
       "name": "KB금융",
-      "price": 164300,
-      "quotedAt": "2026-08-21",
+      "price": 161400,
+      "quotedAt": "2026-08-24",
       "defaultMetric": "PER",
       "annual": {
         "2026": {
@@ -756,18 +742,17 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=105560",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=105560"
       },
-      "priceUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "priceUpdatedAt": "2026-08-24T01:48:27+00:00",
       "investorTrading": {
         "date": "2026-08-21",
         "institution": 66347,
         "foreign": -30171
       },
-      "investorTradingUpdatedAt": "2026-08-21T15:18:30+00:00",
+      "investorTradingUpdatedAt": "2026-08-24T01:48:27+00:00",
       "consensusUpdatedAt": "2026-08-21T15:24:07+00:00",
       "collectionStatus": {
-        "state": "stale",
-        "failedAt": "2026-08-21T23:03:21+00:00",
-        "error": "<urlopen error timed out>"
+        "state": "fresh",
+        "mode": "price"
       },
       "previousAnnual": {
         "2026": {
@@ -785,96 +770,5 @@
       }
     }
   ],
-  "failures": [
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "003230",
-      "name": "삼양식품",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "012330",
-      "name": "현대모비스",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "483650",
-      "name": "달바글로벌",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "062040",
-      "name": "산일전기",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "373220",
-      "name": "LG에너지솔루션",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    },
-    {
-      "code": "105560",
-      "name": "KB금융",
-      "error": "<urlopen error timed out>",
-      "preserved": true
-    }
-  ]
+  "failures": []
 }
