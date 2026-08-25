@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-25T06:59:20+00:00",
-  "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+  "generatedAt": "2026-08-25T07:50:23+00:00",
+  "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
   "consensusUpdatedAt": "2026-08-21T23:03:21+00:00",
   "stocks": [
     {
@@ -29,13 +29,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=005930",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=005930"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": -6269240,
         "foreign": -6882379
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -81,13 +81,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=000660",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=000660"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": -173328,
         "foreign": -913265
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -133,13 +133,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=009150",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=009150"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": 15522,
         "foreign": -19988
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -185,13 +185,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=005380",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=005380"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": -5521,
         "foreign": -26620
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -237,13 +237,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=012330",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=012330"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": -169,
         "foreign": 7489
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -289,13 +289,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=062040",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=062040"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": 13604,
         "foreign": 17705
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -341,13 +341,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=010120",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=010120"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": 7118,
         "foreign": 65473
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -378,13 +378,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=011070",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=011070"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": 5070,
         "foreign": 50806
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -430,13 +430,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=329180",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=329180"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": -6145,
         "foreign": 10236
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -482,13 +482,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=278470",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=278470"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": 77306,
         "foreign": 44770
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -534,13 +534,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=483650",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=483650"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": 27772,
         "foreign": 37983
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "collectionStatus": {
         "state": "fresh",
         "mode": "price"
@@ -586,13 +586,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=373220",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=373220"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": 136027,
         "foreign": -52400
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "consensusUpdatedAt": "2026-08-21T15:24:07+00:00",
       "collectionStatus": {
         "state": "fresh",
@@ -638,13 +638,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=003230",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=003230"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": 19053,
         "foreign": -7615
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "consensusUpdatedAt": "2026-08-21T15:20:30+00:00",
       "collectionStatus": {
         "state": "fresh",
@@ -690,13 +690,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=006400",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=006400"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": 184135,
         "foreign": -32884
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "consensusUpdatedAt": "2026-08-21T15:22:26+00:00",
       "collectionStatus": {
         "state": "fresh",
@@ -742,13 +742,13 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=105560",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=105560"
       },
-      "priceUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "priceUpdatedAt": "2026-08-25T07:50:23+00:00",
       "investorTrading": {
         "date": "2026-08-24",
         "institution": 79083,
         "foreign": -61895
       },
-      "investorTradingUpdatedAt": "2026-08-25T06:59:20+00:00",
+      "investorTradingUpdatedAt": "2026-08-25T07:50:23+00:00",
       "consensusUpdatedAt": "2026-08-21T15:24:07+00:00",
       "collectionStatus": {
         "state": "fresh",
