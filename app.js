@@ -149,12 +149,25 @@ function renderValuationRange(section, stock, pref, basis) {
 
   const targetList = section.querySelector(".range-targets");
   targetList.replaceChildren();
-  sortedTargets.forEach((target) => {
+  let previousPosition = null;
+  let previousRow = 0;
+  let hasStaggeredTarget = false;
+  sortedTargets.forEach((target, index) => {
+    const targetPosition = high === low ? 50 : (target.value - low) / (high - low) * 100;
+    const row = previousPosition != null && targetPosition - previousPosition < 34 ? 1 - previousRow : 0;
     const item = document.createElement("div");
     item.className = `range-target range-target-${target.level === "상" ? "high" : target.level === "중" ? "mid" : "low"}`;
+    item.classList.toggle("range-target-staggered", row === 1);
+    item.classList.toggle("range-target-edge-low", index === 0);
+    item.classList.toggle("range-target-edge-high", index === sortedTargets.length - 1);
+    item.style.left = `${targetPosition}%`;
     item.innerHTML = `<span><b>${target.level}</b> 목표 ${target.goal}</span><strong>${formatWon(target.value)}</strong><small>${pref.metric} ${formatter.format(target.multiple)}배</small>`;
     targetList.append(item);
+    hasStaggeredTarget ||= row === 1;
+    previousPosition = targetPosition;
+    previousRow = row;
   });
+  targetList.classList.toggle("has-staggered-target", hasStaggeredTarget);
   section.hidden = false;
 }
 

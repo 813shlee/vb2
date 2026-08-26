@@ -88,10 +88,16 @@ tr.conservative { background:#f0f7d3; }
 .current-marker.outside-high { transform:translateX(-100%); }
 .current-marker.outside-high .current-marker-label { right:-7px; }
 .current-marker.outside-high .current-marker-label::after { left:auto; right:4px; }
-.range-targets { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:7px; margin-top:13px; }
-.range-target { min-width:0; display:grid; gap:2px; }
-.range-target:nth-child(2) { text-align:center; }
-.range-target:last-child { text-align:right; }
+.range-targets { position:relative; height:61px; margin:11px 7px 0; }
+.range-targets.has-staggered-target { height:108px; }
+.range-target { position:absolute; top:10px; width:112px; min-width:0; display:grid; gap:2px; transform:translateX(-50%); text-align:center; }
+.range-target::before { content:""; position:absolute; left:50%; bottom:calc(100% + 4px); width:1px; height:15px; background:rgba(23,33,28,.38); }
+.range-target-staggered { top:57px; }
+.range-target-staggered::before { height:62px; }
+.range-target-edge-low { transform:none; text-align:left; }
+.range-target-edge-low::before { left:0; }
+.range-target-edge-high { transform:translateX(-100%); text-align:right; }
+.range-target-edge-high::before { left:100%; }
 .range-target span { color:var(--muted); font-size:10px; font-weight:800; }
 .range-target span b { display:inline-grid; place-items:center; min-width:18px; height:18px; margin-right:3px; border-radius:50%; background:var(--ink); color:white; font-size:10px; }
 .range-target-low span b { background:#477ca3; }
