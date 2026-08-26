@@ -2,7 +2,13 @@ name: Update hourly prices
 
 on:
   schedule:
-    - cron: "5 0-7 * * 1-5"
+    # GitHub schedule can be delayed near the top of the hour.
+    # KST weekdays 08:47: warm-up request before the market opens.
+    - cron: "47 23 * * 0-4"
+    # KST weekdays 09:13~10:53: reinforce the market-open window every 20 minutes.
+    - cron: "13,33,53 0-1 * * 1-5"
+    # KST weekdays 11:17~16:17: update once per hour away from peak queue minutes.
+    - cron: "17 2-7 * * 1-5"
   workflow_dispatch:
 
 permissions:
