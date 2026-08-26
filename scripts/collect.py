@@ -215,15 +215,19 @@ def collect_stock(
     }
     result["defaultMetric"] = stock.get("defaultMetric", "PER")
     result["source"] = {"price": naver_url, "investor": investor_url, "consensus": consensus_url}
-    collect_price = mode in ("all", "price") or result.get("price") is None
-    collect_consensus = mode in ("all", "consensus") or not result.get("annual")
+    collect_price = mode in ("all", "price")
+    collect_investors = mode in ("all", "investors")
+    collect_consensus = mode in ("all", "consensus")
 
     if collect_price:
         page_name, price, quoted_at = parse_price(fetch_text(naver_url))
         result.update({"name": page_name or stock["name"], "price": price, "quotedAt": quoted_at})
         result["priceUpdatedAt"] = run_at
+
+    if collect_investors:
         try:
-            time.sleep(0.5)
+            if collect_price:
+                time.sleep(0.5)
             result["investorTrading"] = parse_investor_trading(fetch_text(investor_url))
             result["investorTradingUpdatedAt"] = run_at
         except (HTTPError, URLError, TimeoutError, OSError, ValueError) as exc:
@@ -259,7 +263,7 @@ def main() -> int:
     parser.add_argument("--config", default="config/stocks.json", help="Shared stock-list JSON")
     parser.add_argument("--output", default="data/stocks.json")
     parser.add_argument("--strict", action="store_true", help="Fail when any stock cannot be collected")
-    parser.add_argument("--mode", choices=("all", "price", "consensus"), default="all")
+    parser.add_argument("--mode", choices=("all", "price", "investors", "consensus"), default="all")
     parser.add_argument("--batch-count", type=int, default=1, help="Number of rotating batches")
     parser.add_argument("--batch-index", type=int, default=0, help="Zero-based batch to collect")
     args = parser.parse_args()
@@ -335,6 +339,7 @@ def main() -> int:
         "schemaVersion": 2,
         "generatedAt": run_at,
         "priceUpdatedAt": run_at if args.mode in ("all", "price") else previous_document.get("priceUpdatedAt"),
+        "investorTradingUpdatedAt": run_at if args.mode in ("all", "investors") else previous_document.get("investorTradingUpdatedAt"),
         "consensusUpdatedAt": run_at if args.mode in ("all", "consensus") else previous_document.get("consensusUpdatedAt"),
         "stocks": stocks,
         "failures": failures,
