@@ -74,14 +74,26 @@
       </div>
       <div class="multiples" aria-label="목표 배수"></div>
       <div class="table-scroll"><table><thead><tr><th>기준</th><th class="basis-heading">EPS</th><th>목표 1</th><th>목표 2</th><th>목표 3</th></tr></thead><tbody></tbody></table></div>
-      <section class="valuation-range" aria-label="2027 보수 목표가 범위" hidden>
-        <div class="range-heading"><strong>2027 보수 목표가 범위</strong><span class="range-status"></span></div>
-        <div class="range-chart">
-          <div class="current-marker"><span class="current-marker-label"></span><i></i></div>
-          <div class="range-track"></div>
-        </div>
-        <div class="range-labels"><span><small class="range-low-caption">낮은 목표가</small><strong class="range-low"></strong></span><span><small class="range-high-caption">높은 목표가</small><strong class="range-high"></strong></span></div>
-      </section>
+      <div class="valuation-ranges">
+        <section class="valuation-range" data-range="conservative" aria-label="2027 보수 목표가 범위" hidden>
+          <div class="range-heading"><strong>2027 보수 기준</strong><span class="range-status"></span></div>
+          <div class="range-chart">
+            <div class="range-track"></div>
+            <div class="range-target-ticks" aria-hidden="true"></div>
+            <div class="current-marker"><span class="current-marker-label"></span><i></i></div>
+          </div>
+          <div class="range-targets" aria-label="2027 보수 상중하 목표가"></div>
+        </section>
+        <section class="valuation-range estimate-range" data-range="estimate" aria-label="2027E 목표가 범위" hidden>
+          <div class="range-heading"><strong>2027E 기준</strong><span class="range-status"></span></div>
+          <div class="range-chart">
+            <div class="range-track"></div>
+            <div class="range-target-ticks" aria-hidden="true"></div>
+            <div class="current-marker"><span class="current-marker-label"></span><i></i></div>
+          </div>
+          <div class="range-targets" aria-label="2027E 상중하 목표가"></div>
+        </section>
+      </div>
       <section class="investor-flow" aria-label="기관·외국인 순매매 수량" hidden>
         <div class="investor-heading"><strong>투자자별 순매매</strong><span class="investor-date"></span></div>
         <div class="investor-grid">

@@ -109,17 +109,18 @@ function renderInvestorFlow(card, stock) {
   section.hidden = false;
 }
 
-function renderValuationRange(card, stock, pref, conservativeBasis) {
-  const section = card.querySelector(".valuation-range");
-  if (!conservativeBasis || !stock.price) return;
-  const firstTarget = conservativeBasis * pref.multiples[0];
-  const thirdTarget = conservativeBasis * pref.multiples[2];
-  const targets = [
-    { value: firstTarget, multiple: pref.multiples[0] },
-    { value: thirdTarget, multiple: pref.multiples[2] },
-  ].sort((a, b) => a.value - b.value);
-  const low = targets[0].value;
-  const high = targets[1].value;
+function renderValuationRange(section, stock, pref, basis) {
+  if (!section || !basis || !stock.price) return;
+  const levels = ["상", "중", "하"];
+  const targets = pref.multiples.map((multiple, index) => ({
+    value: basis * multiple,
+    multiple,
+    goal: index + 1,
+    level: levels[index],
+  }));
+  const sortedTargets = [...targets].sort((a, b) => a.value - b.value);
+  const low = sortedTargets[0].value;
+  const high = sortedTargets.at(-1).value;
   if (!Number.isFinite(low) || !Number.isFinite(high) || high <= 0) return;
 
   const rawPosition = high === low ? 50 : (stock.price - low) / (high - low) * 100;
@@ -129,10 +130,6 @@ function renderValuationRange(card, stock, pref, conservativeBasis) {
   marker.classList.toggle("outside-low", rawPosition < 0);
   marker.classList.toggle("outside-high", rawPosition > 100);
   section.querySelector(".current-marker-label").textContent = `현재 ${formatWon(stock.price)}`;
-  section.querySelector(".range-low").textContent = formatWon(low);
-  section.querySelector(".range-high").textContent = formatWon(high);
-  section.querySelector(".range-low-caption").textContent = `낮은 목표가 · ${pref.metric} ${formatter.format(targets[0].multiple)}배`;
-  section.querySelector(".range-high-caption").textContent = `높은 목표가 · ${pref.metric} ${formatter.format(targets[1].multiple)}배`;
   const status = rawPosition < 0 ? "범위 미만" : rawPosition > 100 ? "범위 초과" : `범위 내 ${position.toFixed(0)}%`;
   section.querySelector(".range-status").textContent = status;
   const track = section.querySelector(".range-chart");
@@ -140,6 +137,24 @@ function renderValuationRange(card, stock, pref, conservativeBasis) {
   track.setAttribute("aria-valuemin", String(Math.round(low)));
   track.setAttribute("aria-valuemax", String(Math.round(high)));
   track.setAttribute("aria-valuenow", String(Math.round(stock.price)));
+
+  const ticks = section.querySelector(".range-target-ticks");
+  ticks.replaceChildren();
+  targets.forEach((target) => {
+    const tick = document.createElement("i");
+    const tickPosition = high === low ? 50 : (target.value - low) / (high - low) * 100;
+    tick.style.left = `${tickPosition}%`;
+    ticks.append(tick);
+  });
+
+  const targetList = section.querySelector(".range-targets");
+  targetList.replaceChildren();
+  sortedTargets.forEach((target) => {
+    const item = document.createElement("div");
+    item.className = `range-target range-target-${target.level === "상" ? "high" : target.level === "중" ? "mid" : "low"}`;
+    item.innerHTML = `<span><b>${target.level}</b> 목표 ${target.goal}</span><strong>${formatWon(target.value)}</strong><small>${pref.metric} ${formatter.format(target.multiple)}배</small>`;
+    targetList.append(item);
+  });
   section.hidden = false;
 }
 
@@ -190,7 +205,9 @@ function renderCard(stock, index = 0, total = 1, detail = false) {
     tr.innerHTML = `<td><strong>${row.label}</strong>${row.conservative ? `<small>${pref.discount}% 반영</small>` : ""}</td><td>${formatBasis(row.basis)}<small class="basis-change">${consensusChangeMarkup(change, "직전 대비")}</small></td>${targets}`;
     tbody.append(tr);
   });
-  renderValuationRange(card, stock, pref, rows.find((row) => row.conservative)?.basis);
+  const metricKey = pref.metric === "PBR" ? "bps" : "eps";
+  renderValuationRange(card.querySelector('[data-range="conservative"]'), stock, pref, rows.find((row) => row.conservative)?.basis);
+  renderValuationRange(card.querySelector('[data-range="estimate"]'), stock, pref, stock.annual?.["2027"]?.[metricKey]);
   renderInvestorFlow(card, stock);
 
   card.querySelector(".metric-select").addEventListener("change", (event) => {
