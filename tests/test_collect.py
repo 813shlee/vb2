@@ -39,10 +39,10 @@ class ParserTests(unittest.TestCase):
 
     @patch("scripts.collect.fetch_text")
     def test_price_only_preserves_consensus(self, fetch_text):
-        fetch_text.side_effect = [
-            "2026년 08월 21일 <dd>종목명 삼성전자</dd><dd>현재가 281,500 전일대비</dd>",
-            '<table summary="외국인 기관 순매매 거래량"><tr><td>2026.08.21</td><td>281,500</td><td>상승</td><td>3.87%</td><td>100</td><td>+20</td><td>-10</td></tr></table>',
-        ]
+        fetch_text.return_value = (
+            "2026년 08월 21일 <dd>종목명 삼성전자</dd>"
+            "<dd>현재가 281,500 전일대비</dd>"
+        )
         previous = {
             "code": "005930", "name": "삼성전자", "price": 270000, "quotedAt": "2026-08-20",
             "defaultMetric": "PER", "annual": {"2027": {"eps": 12000, "bps": 150000}},
@@ -54,9 +54,31 @@ class ParserTests(unittest.TestCase):
         )
         self.assertEqual(result["price"], 281500)
         self.assertEqual(result["annual"], previous["annual"])
-        self.assertEqual(result["investorTrading"]["institution"], 20)
+        self.assertNotIn("investorTrading", result)
         self.assertNotIn("previousAnnual", result)
-        self.assertEqual(fetch_text.call_count, 2)
+        self.assertEqual(fetch_text.call_count, 1)
+
+    @patch("scripts.collect.fetch_text")
+    def test_investors_only_preserves_price_and_consensus(self, fetch_text):
+        fetch_text.return_value = (
+            '<table summary="외국인 기관 순매매 거래량">'
+            '<tr><td>2026.08.21</td><td>281,500</td><td>상승</td><td>3.87%</td>'
+            '<td>100</td><td>+20</td><td>-10</td></tr></table>'
+        )
+        previous = {
+            "code": "005930", "name": "삼성전자", "price": 281500,
+            "quotedAt": "2026-08-21", "defaultMetric": "PER",
+            "annual": {"2027": {"eps": 12000, "bps": 150000}}, "source": {},
+        }
+        result = collect_stock(
+            {"code": "005930", "name": "삼성전자", "defaultMetric": "PER"},
+            mode="investors", previous=previous, run_at="2026-08-21T10:10:00+00:00",
+        )
+        self.assertEqual(result["price"], previous["price"])
+        self.assertEqual(result["annual"], previous["annual"])
+        self.assertEqual(result["investorTrading"]["institution"], 20)
+        self.assertEqual(result["investorTrading"]["foreign"], -10)
+        self.assertEqual(fetch_text.call_count, 1)
 
     @patch("scripts.collect.fetch_text")
     def test_consensus_keeps_previous_snapshot(self, fetch_text):
