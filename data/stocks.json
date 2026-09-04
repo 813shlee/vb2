@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-04T07:15:43+00:00",
-  "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+  "generatedAt": "2026-09-04T12:10:01+00:00",
+  "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
   "investorTradingUpdatedAt": "2026-09-03T14:25:18+00:00",
   "consensusUpdatedAt": "2026-08-29T03:58:42+00:00",
   "stocks": [
@@ -30,7 +30,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=005930",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=005930"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": -839601,
@@ -82,7 +82,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=000660",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=000660"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": -187288,
@@ -134,7 +134,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=009150",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=009150"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": -72871,
@@ -186,7 +186,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=005380",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=005380"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": 2807,
@@ -238,7 +238,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=012330",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=012330"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": -12628,
@@ -290,7 +290,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=062040",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=062040"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": -18224,
@@ -342,7 +342,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=010120",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=010120"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": -40693,
@@ -379,7 +379,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=011070",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=011070"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": -30970,
@@ -431,7 +431,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=329180",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=329180"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": 38150,
@@ -483,7 +483,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=278470",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=278470"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": -61810,
@@ -535,7 +535,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=483650",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=483650"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": -40495,
@@ -587,7 +587,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=373220",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=373220"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": 77241,
@@ -639,7 +639,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=003230",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=003230"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": -3910,
@@ -691,7 +691,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=006400",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=006400"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": -9989,
@@ -743,7 +743,7 @@
         "investor": "https://finance.naver.com/item/frgn.naver?code=105560",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=105560"
       },
-      "priceUpdatedAt": "2026-09-04T07:15:43+00:00",
+      "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
       "investorTrading": {
         "date": "2026-09-03",
         "institution": 370147,
