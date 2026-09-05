@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-04T14:14:49+00:00",
+  "generatedAt": "2026-09-05T00:25:57+00:00",
   "priceUpdatedAt": "2026-09-04T12:10:01+00:00",
   "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
-  "consensusUpdatedAt": "2026-08-29T03:58:42+00:00",
+  "consensusUpdatedAt": "2026-09-05T00:25:57+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -13,16 +13,16 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 48139,
-          "bps": 109013
+          "eps": 48291,
+          "bps": 109429
         },
         "2027": {
-          "eps": 66386,
-          "bps": 168338
+          "eps": 67704,
+          "bps": 170028
         },
         "2028": {
-          "eps": 66632,
-          "bps": 229170
+          "eps": 68696,
+          "bps": 231605
         }
       },
       "source": {
@@ -39,23 +39,23 @@
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 47816,
-          "bps": 109361
+          "eps": 48139,
+          "bps": 109013
         },
         "2027": {
-          "eps": 66500,
-          "bps": 169249
+          "eps": 66386,
+          "bps": 168338
         },
         "2028": {
-          "eps": 67197,
-          "bps": 231051
+          "eps": 66632,
+          "bps": 229170
         }
       },
-      "consensusUpdatedAt": "2026-08-29T03:48:07+00:00"
+      "consensusUpdatedAt": "2026-09-05T00:16:22+00:00"
     },
     {
       "code": "000660",
@@ -65,16 +65,16 @@
       "defaultMetric": "PBR",
       "annual": {
         "2026": {
-          "eps": 349566,
-          "bps": 521034
+          "eps": 349342,
+          "bps": 523143
         },
         "2027": {
-          "eps": 436187,
-          "bps": 949640
+          "eps": 441864,
+          "bps": 959373
         },
         "2028": {
-          "eps": 450129,
-          "bps": 1378134
+          "eps": 458132,
+          "bps": 1395034
         }
       },
       "source": {
@@ -91,23 +91,23 @@
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
           "eps": 349566,
-          "bps": 518236
+          "bps": 521034
         },
         "2027": {
           "eps": 436187,
-          "bps": 944539
+          "bps": 949640
         },
         "2028": {
           "eps": 450129,
-          "bps": 1370732
+          "bps": 1378134
         }
       },
-      "consensusUpdatedAt": "2026-08-29T03:53:15+00:00"
+      "consensusUpdatedAt": "2026-09-05T00:21:23+00:00"
     },
     {
       "code": "009150",
@@ -117,16 +117,16 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 19813,
-          "bps": 146182
+          "eps": 19865,
+          "bps": 146523
         },
         "2027": {
-          "eps": 37578,
-          "bps": 185168
+          "eps": 37983,
+          "bps": 185919
         },
         "2028": {
-          "eps": 58940,
-          "bps": 237955
+          "eps": 59606,
+          "bps": 239487
         }
       },
       "source": {
@@ -143,23 +143,23 @@
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 19742,
-          "bps": 146105
+          "eps": 19813,
+          "bps": 146182
         },
         "2027": {
-          "eps": 37475,
-          "bps": 184980
+          "eps": 37578,
+          "bps": 185168
         },
         "2028": {
-          "eps": 59010,
-          "bps": 237671
+          "eps": 58940,
+          "bps": 237955
         }
       },
-      "consensusUpdatedAt": "2026-08-29T03:58:42+00:00"
+      "consensusUpdatedAt": "2026-09-05T00:25:57+00:00"
     },
     {
       "code": "005380",
@@ -194,8 +194,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-05T00:16:22+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -221,15 +222,15 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 45734,
+          "eps": 45720,
           "bps": 601313
         },
         "2027": {
-          "eps": 52248,
+          "eps": 52207,
           "bps": 645925
         },
         "2028": {
-          "eps": 55938,
+          "eps": 55891,
           "bps": 696286
         }
       },
@@ -247,23 +248,23 @@
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 45680,
-          "bps": 607307
+          "eps": 45734,
+          "bps": 601313
         },
         "2027": {
-          "eps": 52266,
-          "bps": 652410
+          "eps": 52248,
+          "bps": 645925
         },
         "2028": {
-          "eps": 55951,
-          "bps": 703290
+          "eps": 55938,
+          "bps": 696286
         }
       },
-      "consensusUpdatedAt": "2026-08-29T03:53:15+00:00"
+      "consensusUpdatedAt": "2026-09-05T00:21:23+00:00"
     },
     {
       "code": "062040",
@@ -298,8 +299,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-05T00:25:57+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -350,8 +352,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-05T00:16:22+00:00",
+        "error": "<urlopen error timed out>"
       }
     },
     {
@@ -387,8 +390,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-05T00:21:23+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -439,8 +443,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-05T00:25:57+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -491,8 +496,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-05T00:16:22+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -543,8 +549,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-05T00:21:23+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -596,8 +603,9 @@
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "consensusUpdatedAt": "2026-08-21T15:24:07+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-05T00:25:57+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -648,8 +656,9 @@
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "consensusUpdatedAt": "2026-08-21T15:20:30+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-05T00:16:22+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -700,8 +709,9 @@
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "consensusUpdatedAt": "2026-08-21T15:22:26+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-05T00:21:23+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -752,8 +762,9 @@
       "investorTradingUpdatedAt": "2026-09-04T14:14:49+00:00",
       "consensusUpdatedAt": "2026-08-21T15:24:07+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-05T00:25:57+00:00",
+        "error": "<urlopen error timed out>"
       },
       "previousAnnual": {
         "2026": {
@@ -771,5 +782,72 @@
       }
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "code": "005380",
+      "name": "현대차",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "003230",
+      "name": "삼양식품",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "483650",
+      "name": "달바글로벌",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "062040",
+      "name": "산일전기",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "373220",
+      "name": "LG에너지솔루션",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "error": "<urlopen error timed out>",
+      "preserved": true
+    }
+  ]
 }
