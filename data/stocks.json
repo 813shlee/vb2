@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-10T14:18:08+00:00",
-  "priceUpdatedAt": "2026-09-10T07:20:08+00:00",
+  "generatedAt": "2026-09-11T01:28:44+00:00",
+  "priceUpdatedAt": "2026-09-11T01:28:44+00:00",
   "investorTradingUpdatedAt": "2026-09-10T14:18:08+00:00",
   "consensusUpdatedAt": "2026-09-05T00:25:57+00:00",
   "stocks": [
@@ -38,8 +38,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -90,8 +91,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -142,8 +144,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -194,8 +197,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -246,8 +250,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -298,8 +303,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -350,8 +356,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       }
     },
     {
@@ -387,8 +394,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -439,8 +447,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -491,8 +500,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -543,8 +553,9 @@
       },
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -596,8 +607,9 @@
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "consensusUpdatedAt": "2026-08-21T15:24:07+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -648,8 +660,9 @@
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "consensusUpdatedAt": "2026-08-21T15:20:30+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -700,8 +713,9 @@
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "consensusUpdatedAt": "2026-08-21T15:22:26+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -752,8 +766,9 @@
       "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
       "consensusUpdatedAt": "2026-08-21T15:24:07+00:00",
       "collectionStatus": {
-        "state": "fresh",
-        "mode": "investors"
+        "state": "stale",
+        "failedAt": "2026-09-11T01:28:44+00:00",
+        "error": "현재가를 찾지 못했습니다"
       },
       "previousAnnual": {
         "2026": {
@@ -771,5 +786,96 @@
       }
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "062040",
+      "name": "산일전기",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "483650",
+      "name": "달바글로벌",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "373220",
+      "name": "LG에너지솔루션",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "003230",
+      "name": "삼양식품",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "error": "현재가를 찾지 못했습니다",
+      "preserved": true
+    }
+  ]
 }
