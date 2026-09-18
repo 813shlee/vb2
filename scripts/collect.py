@@ -9,7 +9,6 @@ import re
 import sys
 import time
 from datetime import datetime, timezone
-from html.parser import HTMLParser
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
@@ -97,20 +96,19 @@ def load_stock_config(path: Path) -> list[dict[str, str]]:
     return stocks
 
 
-def parse_price(html: str) -> tuple[str, int, str | None]:
-    name_match = re.search(r"<dd>\s*종목명\s*([^\r\n<]+)</dd>", html, re.I)
-    if not name_match:
-        name_match = re.search(r"종목명\s*([^\r\n<]+)", html)
-    price_match = re.search(r"현재가\s*([0-9,]+)", html)
-    date_match = re.search(r"(20\d{2})년\s*(\d{2})월\s*(\d{2})일", html)
-    if not price_match:
-        # Stable fallback used by the legacy Naver quote page.
-        price_match = re.search(r'<p class="no_today">.*?<span class="blind">([0-9,]+)</span>', html, re.S)
-    if not price_match:
+def parse_price(payload: str) -> tuple[str, int, str | None]:
+    """Parse Naver's domestic-stock basic JSON response."""
+    parsed = json.loads(payload)
+    if not isinstance(parsed, dict):
+        raise ValueError("현재가 응답 형식이 올바르지 않습니다")
+    price = number(parsed.get("closePrice"))
+    if price is None:
         raise ValueError("현재가를 찾지 못했습니다")
-    name = re.sub(r"\s+", " ", name_match.group(1)).strip() if name_match else ""
-    quoted_at = "-".join(date_match.groups()) if date_match else None
-    return name, number(price_match.group(1)) or 0, quoted_at
+    name = str(parsed.get("stockName") or "").strip()
+    traded_at = str(parsed.get("localTradedAt") or "")
+    date_match = re.match(r"(20\d{2}-\d{2}-\d{2})", traded_at)
+    quoted_at = date_match.group(1) if date_match else None
+    return name, price, quoted_at
 
 
 def discover_snapshot_date(consensus_html: str) -> str:
@@ -137,58 +135,21 @@ def parse_consensus(payload: str) -> dict[str, dict[str, int | None]]:
     return annual
 
 
-class InvestorTableParser(HTMLParser):
-    def __init__(self) -> None:
-        super().__init__()
-        self.in_target = False
-        self.table_depth = 0
-        self.in_row = False
-        self.in_cell = False
-        self.cell_parts: list[str] = []
-        self.row: list[str] = []
-        self.rows: list[list[str]] = []
-
-    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        attributes = dict(attrs)
-        if tag == "table" and "순매매 거래량" in (attributes.get("summary") or ""):
-            self.in_target = True
-            self.table_depth = 1
-        elif self.in_target and tag == "table":
-            self.table_depth += 1
-        elif self.in_target and tag == "tr":
-            self.in_row = True
-            self.row = []
-        elif self.in_row and tag in ("td", "th"):
-            self.in_cell = True
-            self.cell_parts = []
-
-    def handle_data(self, data: str) -> None:
-        if self.in_cell:
-            self.cell_parts.append(data)
-
-    def handle_endtag(self, tag: str) -> None:
-        if self.in_cell and tag in ("td", "th"):
-            self.row.append(re.sub(r"\s+", " ", "".join(self.cell_parts)).strip())
-            self.in_cell = False
-        elif self.in_row and tag == "tr":
-            if self.row:
-                self.rows.append(self.row)
-            self.in_row = False
-        elif self.in_target and tag == "table":
-            self.table_depth -= 1
-            if self.table_depth == 0:
-                self.in_target = False
-
-
-def parse_investor_trading(html: str) -> dict[str, int | str]:
-    parser = InvestorTableParser()
-    parser.feed(html)
-    for row in parser.rows:
-        if len(row) >= 7 and re.fullmatch(r"20\d{2}\.\d{2}\.\d{2}", row[0]):
+def parse_investor_trading(payload: str) -> dict[str, int | str]:
+    """Parse Naver's domestic-stock trend JSON response."""
+    parsed = json.loads(payload)
+    rows = parsed.get("dealTrendInfos", []) if isinstance(parsed, dict) else parsed
+    if not isinstance(rows, list):
+        raise ValueError("기관·외국인 순매매 응답 형식이 올바르지 않습니다")
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        bizdate = str(row.get("bizdate") or "")
+        if re.fullmatch(r"20\d{6}", bizdate):
             return {
-                "date": row[0].replace(".", "-"),
-                "institution": number(row[5]) or 0,
-                "foreign": number(row[6]) or 0,
+                "date": f"{bizdate[:4]}-{bizdate[4:6]}-{bizdate[6:8]}",
+                "institution": number(row.get("organPureBuyQuant")) or 0,
+                "foreign": number(row.get("foreignerPureBuyQuant")) or 0,
             }
     raise ValueError("기관·외국인 순매매 수량을 찾지 못했습니다")
 
@@ -201,8 +162,9 @@ def collect_stock(
     run_at: str | None = None,
 ) -> dict:
     code = stock["code"]
-    naver_url = f"https://finance.naver.com/item/coinfo.naver?code={code}"
-    investor_url = f"https://finance.naver.com/item/frgn.naver?code={code}"
+    naver_url = f"https://stock.naver.com/domestic/stock/{code}"
+    price_api_url = f"https://m.stock.naver.com/api/stock/{code}/basic"
+    investor_url = f"https://m.stock.naver.com/api/stock/{code}/trend?page=1&pageSize=10"
     consensus_url = f"https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd={code}"
     result = json.loads(json.dumps(previous)) if previous else {
         "code": code,
@@ -220,7 +182,7 @@ def collect_stock(
     collect_consensus = mode in ("all", "consensus")
 
     if collect_price:
-        page_name, price, quoted_at = parse_price(fetch_text(naver_url))
+        page_name, price, quoted_at = parse_price(fetch_text(price_api_url, referer=naver_url))
         result.update({"name": page_name or stock["name"], "price": price, "quotedAt": quoted_at})
         result["priceUpdatedAt"] = run_at
 
@@ -231,6 +193,8 @@ def collect_stock(
             result["investorTrading"] = parse_investor_trading(fetch_text(investor_url))
             result["investorTradingUpdatedAt"] = run_at
         except (HTTPError, URLError, TimeoutError, OSError, ValueError) as exc:
+            if mode == "investors":
+                raise
             print(f"WARN {code} investor trading preserved ({exc})", file=sys.stderr)
 
     if collect_consensus:
@@ -294,6 +258,7 @@ def main() -> int:
 
     run_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
     stocks, failures = [], []
+    successful_count = 0
     for index, stock in enumerate(selected):
         try:
             stocks.append(collect_stock(
@@ -302,6 +267,7 @@ def main() -> int:
                 previous=previous_by_code.get(stock["code"]),
                 run_at=run_at,
             ))
+            successful_count += 1
             print(f"OK {stock['code']} {stocks[-1]['name']}")
         except (HTTPError, URLError, TimeoutError, OSError, ValueError, json.JSONDecodeError) as exc:
             failure = {"code": stock["code"], "name": stock["name"], "error": str(exc), "preserved": False}
@@ -334,6 +300,10 @@ def main() -> int:
             failure for failure in previous_failures
             if failure.get("code") not in processed_codes
         ] + failures
+
+    if successful_count == 0:
+        print(f"FAIL no {args.mode} data was collected; output left unchanged", file=sys.stderr)
+        return 1
 
     result = {
         "schemaVersion": 2,
