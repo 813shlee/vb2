@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-18T07:43:12+00:00",
+  "generatedAt": "2026-09-18T14:22:44+00:00",
   "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
-  "investorTradingUpdatedAt": "2026-09-17T14:52:49+00:00",
+  "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
   "consensusUpdatedAt": "2026-09-12T00:31:06+00:00",
   "stocks": [
     {
@@ -32,14 +32,14 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": 1740154,
-        "foreign": -2884161
+        "date": "2026-09-18",
+        "institution": 2746972,
+        "foreign": -1673323
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -84,14 +84,14 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": 74984,
-        "foreign": 41716
+        "date": "2026-09-18",
+        "institution": 160742,
+        "foreign": 723470
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -136,14 +136,14 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": 25091,
-        "foreign": 95858
+        "date": "2026-09-18",
+        "institution": 134910,
+        "foreign": 69124
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -188,14 +188,14 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": -22294,
-        "foreign": 36894
+        "date": "2026-09-18",
+        "institution": 46577,
+        "foreign": -40249
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -240,14 +240,14 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": -31366,
-        "foreign": 32889
+        "date": "2026-09-18",
+        "institution": 12808,
+        "foreign": -58665
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -292,14 +292,14 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": 75918,
-        "foreign": -30548
+        "date": "2026-09-18",
+        "institution": 22523,
+        "foreign": 62386
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -344,14 +344,14 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": 55532,
-        "foreign": 219206
+        "date": "2026-09-18",
+        "institution": 10900,
+        "foreign": 237875
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -396,14 +396,14 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": 8050,
-        "foreign": -25922
+        "date": "2026-09-18",
+        "institution": 13304,
+        "foreign": 34083
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -448,14 +448,14 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": 64087,
-        "foreign": -39729
+        "date": "2026-09-18",
+        "institution": -15879,
+        "foreign": -43335
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -500,14 +500,14 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": -94028,
-        "foreign": 2924
+        "date": "2026-09-18",
+        "institution": 14813,
+        "foreign": 37666
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -552,14 +552,14 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": -7021,
-        "foreign": -4793
+        "date": "2026-09-18",
+        "institution": 92489,
+        "foreign": -58691
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -604,15 +604,15 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": 118264,
-        "foreign": 47253
+        "date": "2026-09-18",
+        "institution": 723,
+        "foreign": 16885
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "consensusUpdatedAt": "2026-09-12T00:31:06+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -656,15 +656,15 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": -31321,
-        "foreign": 8774
+        "date": "2026-09-18",
+        "institution": 4733,
+        "foreign": 455
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "consensusUpdatedAt": "2026-09-12T00:27:47+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -708,15 +708,15 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": 153596,
-        "foreign": 35036
+        "date": "2026-09-18",
+        "institution": 17702,
+        "foreign": -60841
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "consensusUpdatedAt": "2026-09-12T00:29:31+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
@@ -760,15 +760,15 @@
       },
       "priceUpdatedAt": "2026-09-18T07:43:12+00:00",
       "investorTrading": {
-        "date": "2026-09-09",
-        "institution": -17486,
-        "foreign": 36882
+        "date": "2026-09-18",
+        "institution": 20271,
+        "foreign": -83829
       },
-      "investorTradingUpdatedAt": "2026-09-09T14:27:00+00:00",
+      "investorTradingUpdatedAt": "2026-09-18T14:22:44+00:00",
       "consensusUpdatedAt": "2026-09-12T00:31:06+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "price"
+        "mode": "investors"
       },
       "previousAnnual": {
         "2026": {
