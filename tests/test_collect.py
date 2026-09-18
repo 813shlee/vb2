@@ -9,7 +9,11 @@ from scripts.collect import collect_stock, load_stock_config, parse_consensus, p
 
 class ParserTests(unittest.TestCase):
     def test_parse_price(self):
-        name, price, quoted_at = parse_price("2026년 08월 21일 <dd>종목명 SK하이닉스</dd>\n<dd>현재가 1,730,000 전일대비</dd>")
+        name, price, quoted_at = parse_price(json.dumps({
+            "stockName": "SK하이닉스",
+            "closePrice": "1,730,000",
+            "localTradedAt": "2026-08-21T15:30:00+09:00",
+        }))
         self.assertEqual((name, price, quoted_at), ("SK하이닉스", 1730000, "2026-08-21"))
 
     def test_parse_consensus(self):
@@ -21,13 +25,12 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(parse_consensus(payload)["2027"], {"eps": 436187, "bps": 944539})
 
     def test_parse_investor_trading(self):
-        html = """
-        <table summary="외국인 기관 순매매 거래량">
-          <tr><th>날짜</th><th>종가</th><th>전일비</th><th>등락률</th><th>거래량</th><th>기관</th><th>외국인</th></tr>
-          <tr><td>2026.08.21</td><td>281,500</td><td>+10,500</td><td>+3.87%</td><td>27,672,192</td><td>+1,306,652</td><td>-1,567,349</td></tr>
-        </table>
-        """
-        self.assertEqual(parse_investor_trading(html), {
+        payload = json.dumps([{
+            "bizdate": "20260821",
+            "organPureBuyQuant": "+1,306,652",
+            "foreignerPureBuyQuant": "-1,567,349",
+        }])
+        self.assertEqual(parse_investor_trading(payload), {
             "date": "2026-08-21", "institution": 1306652, "foreign": -1567349
         })
 
@@ -40,8 +43,8 @@ class ParserTests(unittest.TestCase):
     @patch("scripts.collect.fetch_text")
     def test_price_only_preserves_consensus(self, fetch_text):
         fetch_text.return_value = (
-            "2026년 08월 21일 <dd>종목명 삼성전자</dd>"
-            "<dd>현재가 281,500 전일대비</dd>"
+            '{"stockName":"삼성전자","closePrice":"281,500",'
+            '"localTradedAt":"2026-08-21T15:30:00+09:00"}'
         )
         previous = {
             "code": "005930", "name": "삼성전자", "price": 270000, "quotedAt": "2026-08-20",
@@ -61,9 +64,8 @@ class ParserTests(unittest.TestCase):
     @patch("scripts.collect.fetch_text")
     def test_investors_only_preserves_price_and_consensus(self, fetch_text):
         fetch_text.return_value = (
-            '<table summary="외국인 기관 순매매 거래량">'
-            '<tr><td>2026.08.21</td><td>281,500</td><td>상승</td><td>3.87%</td>'
-            '<td>100</td><td>+20</td><td>-10</td></tr></table>'
+            '[{"bizdate":"20260821","organPureBuyQuant":"+20",'
+            '"foreignerPureBuyQuant":"-10"}]'
         )
         previous = {
             "code": "005930", "name": "삼성전자", "price": 281500,
