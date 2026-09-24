@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T04:43:38+00:00",
-  "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+  "generatedAt": "2026-09-24T07:37:38+00:00",
+  "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
   "investorTradingUpdatedAt": "2026-09-23T14:54:41+00:00",
   "consensusUpdatedAt": "2026-09-19T00:40:58+00:00",
   "stocks": [
@@ -30,7 +30,7 @@
         "investor": "https://m.stock.naver.com/api/stock/005930/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=005930"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": 1346883,
@@ -82,7 +82,7 @@
         "investor": "https://m.stock.naver.com/api/stock/000660/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=000660"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": 122948,
@@ -134,7 +134,7 @@
         "investor": "https://m.stock.naver.com/api/stock/009150/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=009150"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": 30596,
@@ -186,7 +186,7 @@
         "investor": "https://m.stock.naver.com/api/stock/005380/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=005380"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": -74462,
@@ -238,7 +238,7 @@
         "investor": "https://m.stock.naver.com/api/stock/012330/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=012330"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": -26146,
@@ -290,7 +290,7 @@
         "investor": "https://m.stock.naver.com/api/stock/062040/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=062040"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": -9774,
@@ -342,7 +342,7 @@
         "investor": "https://m.stock.naver.com/api/stock/010120/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=010120"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": -56270,
@@ -394,7 +394,7 @@
         "investor": "https://m.stock.naver.com/api/stock/011070/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=011070"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": 2941,
@@ -446,7 +446,7 @@
         "investor": "https://m.stock.naver.com/api/stock/329180/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=329180"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": -56056,
@@ -498,7 +498,7 @@
         "investor": "https://m.stock.naver.com/api/stock/278470/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=278470"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": 13870,
@@ -550,7 +550,7 @@
         "investor": "https://m.stock.naver.com/api/stock/483650/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=483650"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": -4036,
@@ -602,7 +602,7 @@
         "investor": "https://m.stock.naver.com/api/stock/373220/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=373220"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": 10657,
@@ -654,7 +654,7 @@
         "investor": "https://m.stock.naver.com/api/stock/003230/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=003230"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": -19019,
@@ -706,7 +706,7 @@
         "investor": "https://m.stock.naver.com/api/stock/006400/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=006400"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": -86459,
@@ -758,7 +758,7 @@
         "investor": "https://m.stock.naver.com/api/stock/105560/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=105560"
       },
-      "priceUpdatedAt": "2026-09-24T04:43:38+00:00",
+      "priceUpdatedAt": "2026-09-24T07:37:38+00:00",
       "investorTrading": {
         "date": "2026-09-23",
         "institution": 92288,
