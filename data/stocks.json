@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-01T02:26:27+00:00",
-  "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+  "generatedAt": "2026-10-01T05:46:24+00:00",
+  "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
   "investorTradingUpdatedAt": "2026-09-30T16:22:21+00:00",
   "consensusUpdatedAt": "2026-09-26T00:49:10+00:00",
   "stocks": [
     {
       "code": "005930",
       "name": "삼성전자",
-      "price": 269250,
+      "price": 274750,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PER",
       "annual": {
@@ -30,7 +30,7 @@
         "investor": "https://m.stock.naver.com/api/stock/005930/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=005930"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": -1409182,
@@ -60,7 +60,7 @@
     {
       "code": "000660",
       "name": "SK하이닉스",
-      "price": 1791000,
+      "price": 1827000,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PBR",
       "annual": {
@@ -82,7 +82,7 @@
         "investor": "https://m.stock.naver.com/api/stock/000660/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=000660"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": -135488,
@@ -112,7 +112,7 @@
     {
       "code": "009150",
       "name": "삼성전기",
-      "price": 1525000,
+      "price": 1551000,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PER",
       "annual": {
@@ -134,7 +134,7 @@
         "investor": "https://m.stock.naver.com/api/stock/009150/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=009150"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": -16781,
@@ -164,7 +164,7 @@
     {
       "code": "005380",
       "name": "현대차",
-      "price": 346000,
+      "price": 347500,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PER",
       "annual": {
@@ -186,7 +186,7 @@
         "investor": "https://m.stock.naver.com/api/stock/005380/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=005380"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": -10169,
@@ -216,7 +216,7 @@
     {
       "code": "012330",
       "name": "현대모비스",
-      "price": 378500,
+      "price": 383000,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PER",
       "annual": {
@@ -238,7 +238,7 @@
         "investor": "https://m.stock.naver.com/api/stock/012330/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=012330"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": 61833,
@@ -268,7 +268,7 @@
     {
       "code": "062040",
       "name": "산일전기",
-      "price": 207000,
+      "price": 212500,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PER",
       "annual": {
@@ -290,7 +290,7 @@
         "investor": "https://m.stock.naver.com/api/stock/062040/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=062040"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": 81092,
@@ -320,7 +320,7 @@
     {
       "code": "010120",
       "name": "LS ELECTRIC",
-      "price": 202000,
+      "price": 204500,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PER",
       "annual": {
@@ -342,7 +342,7 @@
         "investor": "https://m.stock.naver.com/api/stock/010120/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=010120"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": -29244,
@@ -372,7 +372,7 @@
     {
       "code": "011070",
       "name": "LG이노텍",
-      "price": 563000,
+      "price": 581000,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PER",
       "annual": {
@@ -394,7 +394,7 @@
         "investor": "https://m.stock.naver.com/api/stock/011070/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=011070"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": -5563,
@@ -424,7 +424,7 @@
     {
       "code": "329180",
       "name": "HD현대중공업",
-      "price": 428000,
+      "price": 429000,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PER",
       "annual": {
@@ -446,7 +446,7 @@
         "investor": "https://m.stock.naver.com/api/stock/329180/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=329180"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": -35658,
@@ -476,7 +476,7 @@
     {
       "code": "278470",
       "name": "에이피알",
-      "price": 367500,
+      "price": 365500,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PER",
       "annual": {
@@ -498,7 +498,7 @@
         "investor": "https://m.stock.naver.com/api/stock/278470/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=278470"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": -9819,
@@ -528,7 +528,7 @@
     {
       "code": "483650",
       "name": "달바글로벌",
-      "price": 186100,
+      "price": 182800,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PER",
       "annual": {
@@ -550,7 +550,7 @@
         "investor": "https://m.stock.naver.com/api/stock/483650/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=483650"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": 7776,
@@ -580,7 +580,7 @@
     {
       "code": "373220",
       "name": "LG에너지솔루션",
-      "price": 359000,
+      "price": 361500,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PBR",
       "annual": {
@@ -602,7 +602,7 @@
         "investor": "https://m.stock.naver.com/api/stock/373220/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=373220"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": 15357,
@@ -632,7 +632,7 @@
     {
       "code": "003230",
       "name": "삼양식품",
-      "price": 1227000,
+      "price": 1222000,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PER",
       "annual": {
@@ -654,7 +654,7 @@
         "investor": "https://m.stock.naver.com/api/stock/003230/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=003230"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": -6387,
@@ -684,7 +684,7 @@
     {
       "code": "006400",
       "name": "삼성SDI",
-      "price": 514000,
+      "price": 518000,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PBR",
       "annual": {
@@ -706,7 +706,7 @@
         "investor": "https://m.stock.naver.com/api/stock/006400/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=006400"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": 1236,
@@ -736,7 +736,7 @@
     {
       "code": "105560",
       "name": "KB금융",
-      "price": 166500,
+      "price": 166400,
       "quotedAt": "2026-10-01",
       "defaultMetric": "PER",
       "annual": {
@@ -758,7 +758,7 @@
         "investor": "https://m.stock.naver.com/api/stock/105560/trend?page=1&pageSize=10",
         "consensus": "https://navercomp.wisereport.co.kr/v2/company/c1050001.aspx?cmp_cd=105560"
       },
-      "priceUpdatedAt": "2026-10-01T02:26:27+00:00",
+      "priceUpdatedAt": "2026-10-01T05:46:24+00:00",
       "investorTrading": {
         "date": "2026-09-30",
         "institution": -69397,
