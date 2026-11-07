@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-06T17:24:18+00:00",
+  "generatedAt": "2026-11-07T02:14:39+00:00",
   "priceUpdatedAt": "2026-11-06T09:26:46+00:00",
   "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
-  "consensusUpdatedAt": "2026-10-31T01:47:10+00:00",
+  "consensusUpdatedAt": "2026-11-07T02:14:39+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -13,16 +13,16 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 45983,
-          "bps": 109026
+          "eps": 45655,
+          "bps": 108381
         },
         "2027": {
-          "eps": 72460,
-          "bps": 172864
+          "eps": 73055,
+          "bps": 171196
         },
         "2028": {
-          "eps": 79146,
-          "bps": 243392
+          "eps": 81587,
+          "bps": 241018
         }
       },
       "source": {
@@ -39,23 +39,23 @@
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 45521,
-          "bps": 108812
+          "eps": 45983,
+          "bps": 109026
         },
         "2027": {
-          "eps": 68241,
-          "bps": 168104
+          "eps": 72460,
+          "bps": 172864
         },
         "2028": {
-          "eps": 76413,
-          "bps": 235268
+          "eps": 79146,
+          "bps": 243392
         }
       },
-      "consensusUpdatedAt": "2026-10-31T01:43:51+00:00"
+      "consensusUpdatedAt": "2026-11-07T02:11:31+00:00"
     },
     {
       "code": "000660",
@@ -65,16 +65,16 @@
       "defaultMetric": "PBR",
       "annual": {
         "2026": {
-          "eps": 355563,
-          "bps": 573367
+          "eps": 355258,
+          "bps": 568799
         },
         "2027": {
-          "eps": 529311,
-          "bps": 1071269
+          "eps": 537506,
+          "bps": 1068797
         },
         "2028": {
-          "eps": 586787,
-          "bps": 1668213
+          "eps": 601777,
+          "bps": 1669277
         }
       },
       "source": {
@@ -91,23 +91,23 @@
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 354688,
-          "bps": 530612
+          "eps": 355563,
+          "bps": 573367
         },
         "2027": {
-          "eps": 446744,
-          "bps": 972700
+          "eps": 529311,
+          "bps": 1071269
         },
         "2028": {
-          "eps": 487420,
-          "bps": 1445713
+          "eps": 586787,
+          "bps": 1668213
         }
       },
-      "consensusUpdatedAt": "2026-10-31T01:45:34+00:00"
+      "consensusUpdatedAt": "2026-11-07T02:13:06+00:00"
     },
     {
       "code": "009150",
@@ -117,16 +117,16 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 22124,
-          "bps": 148682
+          "eps": 22250,
+          "bps": 148938
         },
         "2027": {
-          "eps": 46133,
-          "bps": 193705
+          "eps": 46426,
+          "bps": 194278
         },
         "2028": {
-          "eps": 70060,
-          "bps": 260439
+          "eps": 70080,
+          "bps": 260889
         }
       },
       "source": {
@@ -143,23 +143,23 @@
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 20918,
-          "bps": 147520
+          "eps": 22124,
+          "bps": 148682
         },
         "2027": {
-          "eps": 41821,
-          "bps": 187977
+          "eps": 46133,
+          "bps": 193705
         },
         "2028": {
-          "eps": 64863,
-          "bps": 248855
+          "eps": 70060,
+          "bps": 260439
         }
       },
-      "consensusUpdatedAt": "2026-10-31T01:47:10+00:00"
+      "consensusUpdatedAt": "2026-11-07T02:14:39+00:00"
     },
     {
       "code": "005380",
@@ -169,16 +169,16 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 33661,
-          "bps": 468701
+          "eps": 33641,
+          "bps": 468678
         },
         "2027": {
-          "eps": 36847,
-          "bps": 495601
+          "eps": 36739,
+          "bps": 495502
         },
         "2028": {
-          "eps": 41397,
-          "bps": 526493
+          "eps": 41440,
+          "bps": 526440
         }
       },
       "source": {
@@ -195,23 +195,23 @@
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 35274,
-          "bps": 469255
+          "eps": 33661,
+          "bps": 468701
         },
         "2027": {
-          "eps": 38869,
-          "bps": 498350
+          "eps": 36847,
+          "bps": 495601
         },
         "2028": {
-          "eps": 42663,
-          "bps": 530156
+          "eps": 41397,
+          "bps": 526493
         }
       },
-      "consensusUpdatedAt": "2026-10-31T01:43:51+00:00"
+      "consensusUpdatedAt": "2026-11-07T02:11:31+00:00"
     },
     {
       "code": "012330",
@@ -221,16 +221,16 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 44209,
-          "bps": 599614
+          "eps": 40608,
+          "bps": 595650
         },
         "2027": {
-          "eps": 49687,
-          "bps": 640968
+          "eps": 47962,
+          "bps": 635686
         },
         "2028": {
-          "eps": 54095,
-          "bps": 689681
+          "eps": 51935,
+          "bps": 681754
         }
       },
       "source": {
@@ -247,23 +247,23 @@
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 44555,
-          "bps": 599168
+          "eps": 44209,
+          "bps": 599614
         },
         "2027": {
-          "eps": 50344,
-          "bps": 642365
+          "eps": 49687,
+          "bps": 640968
         },
         "2028": {
-          "eps": 54376,
-          "bps": 691294
+          "eps": 54095,
+          "bps": 689681
         }
       },
-      "consensusUpdatedAt": "2026-10-31T01:45:34+00:00"
+      "consensusUpdatedAt": "2026-11-07T02:13:06+00:00"
     },
     {
       "code": "062040",
@@ -273,16 +273,16 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 6857,
-          "bps": 24985
+          "eps": 6709,
+          "bps": 24811
         },
         "2027": {
-          "eps": 9062,
-          "bps": 32649
+          "eps": 8840,
+          "bps": 32218
         },
         "2028": {
-          "eps": 11691,
-          "bps": 42503
+          "eps": 11524,
+          "bps": 41903
         }
       },
       "source": {
@@ -299,12 +299,12 @@
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
           "eps": 6857,
-          "bps": 24984
+          "bps": 24985
         },
         "2027": {
           "eps": 9062,
@@ -315,7 +315,7 @@
           "bps": 42503
         }
       },
-      "consensusUpdatedAt": "2026-10-31T01:47:10+00:00"
+      "consensusUpdatedAt": "2026-11-07T02:14:39+00:00"
     },
     {
       "code": "010120",
@@ -351,23 +351,23 @@
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 3593,
-          "bps": 16642
+          "eps": 3722,
+          "bps": 16651
         },
         "2027": {
-          "eps": 5224,
-          "bps": 20848
+          "eps": 5606,
+          "bps": 21252
         },
         "2028": {
-          "eps": 6936,
-          "bps": 26464
+          "eps": 7356,
+          "bps": 27304
         }
       },
-      "consensusUpdatedAt": "2026-10-31T01:43:51+00:00"
+      "consensusUpdatedAt": "2026-11-07T02:11:31+00:00"
     },
     {
       "code": "011070",
@@ -377,16 +377,16 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 27652,
-          "bps": 275839
+          "eps": 27180,
+          "bps": 275391
         },
         "2027": {
-          "eps": 35421,
-          "bps": 310927
+          "eps": 34891,
+          "bps": 310042
         },
         "2028": {
-          "eps": 43799,
-          "bps": 353071
+          "eps": 43536,
+          "bps": 351844
         }
       },
       "source": {
@@ -403,23 +403,23 @@
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 34068,
-          "bps": 280736
+          "eps": 27652,
+          "bps": 275839
         },
         "2027": {
-          "eps": 44431,
-          "bps": 324388
+          "eps": 35421,
+          "bps": 310927
         },
         "2028": {
-          "eps": 53477,
-          "bps": 374903
+          "eps": 43799,
+          "bps": 353071
         }
       },
-      "consensusUpdatedAt": "2026-10-31T01:45:34+00:00"
+      "consensusUpdatedAt": "2026-11-07T02:13:06+00:00"
     },
     {
       "code": "329180",
@@ -429,16 +429,16 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 26992,
-          "bps": 110383
+          "eps": 26962,
+          "bps": 110109
         },
         "2027": {
-          "eps": 33459,
-          "bps": 132733
+          "eps": 33398,
+          "bps": 132552
         },
         "2028": {
-          "eps": 39625,
-          "bps": 159151
+          "eps": 39553,
+          "bps": 159456
         }
       },
       "source": {
@@ -455,23 +455,23 @@
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 30039,
-          "bps": 109481
+          "eps": 26992,
+          "bps": 110383
         },
         "2027": {
-          "eps": 35030,
-          "bps": 132431
+          "eps": 33459,
+          "bps": 132733
         },
         "2028": {
-          "eps": 41545,
-          "bps": 159332
+          "eps": 39625,
+          "bps": 159151
         }
       },
-      "consensusUpdatedAt": "2026-10-31T01:47:10+00:00"
+      "consensusUpdatedAt": "2026-11-07T02:14:39+00:00"
     },
     {
       "code": "278470",
@@ -481,16 +481,16 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 15212,
-          "bps": 22814
+          "eps": 14548,
+          "bps": 22180
         },
         "2027": {
-          "eps": 21457,
-          "bps": 38221
+          "eps": 20487,
+          "bps": 36577
         },
         "2028": {
-          "eps": 27118,
-          "bps": 58340
+          "eps": 26512,
+          "bps": 55905
         }
       },
       "source": {
@@ -507,23 +507,23 @@
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
           "eps": 15212,
-          "bps": 22782
+          "bps": 22814
         },
         "2027": {
-          "eps": 21394,
-          "bps": 38001
+          "eps": 21457,
+          "bps": 38221
         },
         "2028": {
-          "eps": 27194,
-          "bps": 58087
+          "eps": 27118,
+          "bps": 58340
         }
       },
-      "consensusUpdatedAt": "2026-10-31T01:43:51+00:00"
+      "consensusUpdatedAt": "2026-11-07T02:11:31+00:00"
     },
     {
       "code": "483650",
@@ -533,16 +533,16 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 10634,
-          "bps": 24074
+          "eps": 10636,
+          "bps": 24121
         },
         "2027": {
-          "eps": 13828,
-          "bps": 34756
+          "eps": 13849,
+          "bps": 34842
         },
         "2028": {
-          "eps": 17776,
-          "bps": 49282
+          "eps": 17851,
+          "bps": 49474
         }
       },
       "source": {
@@ -559,23 +559,23 @@
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 10592,
-          "bps": 24022
+          "eps": 10634,
+          "bps": 24074
         },
         "2027": {
-          "eps": 13882,
-          "bps": 34717
+          "eps": 13828,
+          "bps": 34756
         },
         "2028": {
-          "eps": 17428,
-          "bps": 48793
+          "eps": 17776,
+          "bps": 49282
         }
       },
-      "consensusUpdatedAt": "2026-10-31T01:45:34+00:00"
+      "consensusUpdatedAt": "2026-11-07T02:13:06+00:00"
     },
     {
       "code": "373220",
@@ -585,16 +585,16 @@
       "defaultMetric": "PBR",
       "annual": {
         "2026": {
-          "eps": -913,
-          "bps": 89606
+          "eps": -4307,
+          "bps": 87481
         },
         "2027": {
-          "eps": 8411,
-          "bps": 96305
+          "eps": 6526,
+          "bps": 93524
         },
         "2028": {
-          "eps": 13232,
-          "bps": 111081
+          "eps": 11742,
+          "bps": 104835
         }
       },
       "source": {
@@ -609,23 +609,23 @@
         "foreign": 4637
       },
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
-      "consensusUpdatedAt": "2026-10-31T01:47:10+00:00",
+      "consensusUpdatedAt": "2026-11-07T02:14:39+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": -1035,
-          "bps": 89872
+          "eps": -913,
+          "bps": 89606
         },
         "2027": {
-          "eps": 8494,
-          "bps": 96749
+          "eps": 8411,
+          "bps": 96305
         },
         "2028": {
-          "eps": 13449,
-          "bps": 111715
+          "eps": 13232,
+          "bps": 111081
         }
       }
     },
@@ -637,16 +637,16 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 74267,
-          "bps": 235127
+          "eps": 74232,
+          "bps": 235083
         },
         "2027": {
-          "eps": 89459,
-          "bps": 318047
+          "eps": 89317,
+          "bps": 317823
         },
         "2028": {
-          "eps": 106713,
-          "bps": 417513
+          "eps": 106527,
+          "bps": 416979
         }
       },
       "source": {
@@ -661,23 +661,23 @@
         "foreign": -7842
       },
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
-      "consensusUpdatedAt": "2026-10-31T01:43:51+00:00",
+      "consensusUpdatedAt": "2026-11-07T02:11:31+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 74749,
-          "bps": 235118
+          "eps": 74267,
+          "bps": 235127
         },
         "2027": {
-          "eps": 90098,
-          "bps": 319432
+          "eps": 89459,
+          "bps": 318047
         },
         "2028": {
-          "eps": 106860,
-          "bps": 420126
+          "eps": 106713,
+          "bps": 417513
         }
       }
     },
@@ -713,23 +713,23 @@
         "foreign": -53313
       },
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
-      "consensusUpdatedAt": "2026-10-31T01:45:34+00:00",
+      "consensusUpdatedAt": "2026-11-07T02:13:06+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 11978,
-          "bps": 301559
+          "eps": 10152,
+          "bps": 299357
         },
         "2027": {
-          "eps": 17463,
-          "bps": 322315
+          "eps": 16941,
+          "bps": 319161
         },
         "2028": {
-          "eps": 26958,
-          "bps": 353558
+          "eps": 27249,
+          "bps": 349900
         }
       }
     },
@@ -741,16 +741,16 @@
       "defaultMetric": "PER",
       "annual": {
         "2026": {
-          "eps": 18664,
-          "bps": 179206
+          "eps": 18601,
+          "bps": 179196
         },
         "2027": {
-          "eps": 19643,
-          "bps": 188865
+          "eps": 19552,
+          "bps": 189266
         },
         "2028": {
-          "eps": 20334,
-          "bps": 198579
+          "eps": 20292,
+          "bps": 199479
         }
       },
       "source": {
@@ -765,23 +765,23 @@
         "foreign": -308758
       },
       "investorTradingUpdatedAt": "2026-11-06T17:24:18+00:00",
-      "consensusUpdatedAt": "2026-10-31T01:47:10+00:00",
+      "consensusUpdatedAt": "2026-11-07T02:14:39+00:00",
       "collectionStatus": {
         "state": "fresh",
-        "mode": "investors"
+        "mode": "consensus"
       },
       "previousAnnual": {
         "2026": {
-          "eps": 18385,
-          "bps": 180885
+          "eps": 18664,
+          "bps": 179206
         },
         "2027": {
-          "eps": 19453,
-          "bps": 191567
+          "eps": 19643,
+          "bps": 188865
         },
         "2028": {
-          "eps": 20182,
-          "bps": 202789
+          "eps": 20334,
+          "bps": 198579
         }
       }
     }
